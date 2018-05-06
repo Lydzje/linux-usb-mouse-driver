@@ -16,7 +16,7 @@ static void pen_disconnect(struct usb_interface *interface){
 
 // usb_device_id
 static struct usb_device_id pen_table[] = {
-	// 0e0f:0003
+	// CAMBIAR VENDOR number y PRODUCT number
 	{ USB_DEVICE(0x0e0f, 0x0003) },
 	{}
 };
